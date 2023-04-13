@@ -97,7 +97,7 @@ module.exports = {
                 this.addAmount(accountName, amount)
                 console.log(chalk.bgYellow.green('Sucesso! Seu montante foi depositado.'))
                 setTimeout(() => {
-                    operation()
+                    this.operation()
                 }, 1000);
             })
         })
