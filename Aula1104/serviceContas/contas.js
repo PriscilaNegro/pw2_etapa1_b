@@ -24,13 +24,13 @@ module.exports = {
                 this.createAccount()
             } else if (action === 'Consultar saldo') {
                 console.log('Consulatndo seu saldo...')
-                accountBalance()
+                this.accountBalance()
             } else if (action === 'Depositar') {
                 console.log('Depositando em sua conta...')
                 this.deposit()
             } else if (action === 'Sacar') {
                 console.log('Sacando de sua conta...')
-                withdraw()
+                this.withdraw()
             } else if (action === 'Sair') {
                 console.log(chalk.bgBlue.black('SAINDO DA APLICAÇÃO CONTAS ETEC'))
                 setTimeout(() => {
